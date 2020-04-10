@@ -136,6 +136,9 @@ ul.list {
     background-image: url("../img/link.svg"); }
   .icon--comment {
     background-image: url("../img/comments.svg"); }
+  .icon--whatsapp {
+    background-image: url("../img/whatsapp.png"); }
+  
 
 .blog, .project, .works, .article {
   padding-top: 100px; }
@@ -2167,10 +2170,11 @@ footer a {
   z-index: 2; }
   .socials__nav {
     text-align: center;
-    width: 278px;
+    width: 100vh;
     display: inline-block;
-    float: right;
-    height: 100%; }
+    height: 100%; 
+    margin-left: 10vh;
+  }
     .socials__nav-item:last-child .socials__link {
       margin-right: 0; }
   .socials__link {
@@ -2704,10 +2708,12 @@ footer a {
       position: relative;
       overflow: hidden; }
       .portfolio--grid .portfolio__item:hover .portfolio__item-title {
-        bottom: 0; }
+        bottom: 0; 
+        background-color: #ED226E;
+      }
       .portfolio--grid .portfolio__item-title {
         position: absolute;
-        bottom: -60px;
+        bottom: -5px; 
         left: 0;
         right: 0;
         height: 60px;

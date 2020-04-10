@@ -8,10 +8,32 @@
         text-transform: uppercase; 
 }
 
+.text-justify{
+  text-align: justify;
+}
+/* Social network */
+.facebook > a{
+  color: #3b5998;
+}
+.twitter > a{
+  color: #fff;
+}
+.instagram > a{
+  color: #EB476C;
+}
+.linkedIn > a{
+  color: #0077B5;
+}
+.github > a{
+  color: green;
+}
+/* Social network */
+
 /* Skills */
 .skills-container{
     max-height: 440px;
     overflow-y: scroll;
+    scrollbar-width: thin;
 }
 .skills-sub {
     padding-bottom: 15px;
@@ -45,5 +67,8 @@
   ::-webkit-scrollbar-thumb:hover {
     background: #ED226E; 
   }
+
+  /* Mozilla Scroll */
+  .xpresso-container {scrollbar-color:#ED226E rgb(46, 43, 43); scrollbar-width: thin !important;}
 /* Skills */
 
